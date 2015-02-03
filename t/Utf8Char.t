@@ -35,7 +35,7 @@ ddg_goodie_test(
     'utf8 u263a'    => test_zci(qr/^U\+263A = /),
     'utf8 u+263a'   => test_zci(qr/^U\+263A = /),
     'utf8 U+263A'   => test_zci(qr/^U\+263A = /),
-    'utf8 Code 61'  => test_zci("U+61 = a"),
+    'utf8 Code 61'  => test_zci("U+61 = 'a'"),
     'utf8 u+10FFFF' => test_zci(qr/^U\+10FFFF = /),
     
     'utf8'          => undef,   # No arg

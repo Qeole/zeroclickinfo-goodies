@@ -43,7 +43,7 @@ handle remainder => sub {
     
     return unless ($dec <= 0x10FFFF);
     
-    return 'U+' . uc($hex) . ' = ' . chr($dec);
+    return 'U+' . uc($hex) . " = '" . chr($dec) . "'";
 };
 
 1;
