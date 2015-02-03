@@ -2,7 +2,6 @@ package DDG::Goodie::Utf8Char;
 # ABSTRACT: Gives UTF-8 code for a given character, or character for a given UTF-8 code.
 
 use DDG::Goodie;
-binmode STDOUT, ":encoding(utf8)";
 
 zci answer_type => "utf8char";
 zci is_cached   => 1;
